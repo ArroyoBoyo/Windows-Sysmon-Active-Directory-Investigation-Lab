@@ -1,0 +1,8 @@
+whoami
+whoami /priv
+ipconfig /all
+net user
+EventCode=4624 user=victim
+source="XmlWinEventLog:Microsoft-Windows-Sysmon/Operational" user=victim
+source="XmlWinEventLog:Microsoft-Windows-Sysmon/Operational" user=victim EventID=1
+source="XmlWinEventLog:Microsoft-Windows-Sysmon/Operational" user=victim EventID=1 "PowerShell"
