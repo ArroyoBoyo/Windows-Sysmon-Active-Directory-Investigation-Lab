@@ -40,8 +40,8 @@
 <img width="803" height="649" alt="08-victim-user-identification" src="https://github.com/user-attachments/assets/826aee11-0a16-4ecb-9744-4086086e5546" />
 <img width="674" height="642" alt="09-first-failed-login-attempt" src="https://github.com/user-attachments/assets/ea30f8e2-3e9e-41bb-bf2b-4e3c3d835379" />
 <img width="1136" height="474" alt="10-first-successful-login-attempt" src="https://github.com/user-attachments/assets/3faab265-f6a1-4a6d-8262-2c8d2906e114" />
-<img width="1626" height="1061" alt="11-rapid-process-alerts-login-attempts" src="https://github.com/user-attachments/assets/199b5b46-c5b8-4d67-9297-04f45f5bc9dc" />
+<img width="1621" height="1080" alt="11-rapid-process-alerts-login-attempts" src="https://github.com/user-attachments/assets/4f2daeea-f6b0-4816-a5d4-890e9b338ec0" />
 <img width="1201" height="732" alt="12-powershell-usage-proof" src="https://github.com/user-attachments/assets/3b187483-be2f-4a44-9cbc-66b537719662" />
 <img width="1137" height="752" alt="13-more-powershell-process-proof" src="https://github.com/user-attachments/assets/060b2366-4e05-4bd0-8c0b-8b3f73998099" />
 <img width="1267" height="985" alt="14-first-powershell-usage-attempt" src="https://github.com/user-attachments/assets/e13832e6-f3be-4b11-92da-ce88b56b262e" />
-<img width="1120" height="932" alt="15-specific-commands-used-proof" src="https://github.com/user-attachments/assets/021e0f18-eac2-4d8a-8714-44b855428dd8" />
+<img width="1133" height="919" alt="15-specific-commands-used-proof" src="https://github.com/user-attachments/assets/b0155a78-a734-4072-8ca8-05f3377884d2" />
