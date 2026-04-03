@@ -8,26 +8,28 @@
 - Investigate and document suspicious activity using Windows Event Logs, Sysmon telemetry, and Splunk in a simulated SOC-style workflow
 - Determine whether the behavior is a false positive, suspicious, or indicative of compromise.
 ## 🔍 Investigation Overview
-- Built a Windows VM environment with connected Windows 11 and Windows Server 2025 endpoints
+- Built a Windows VM environment with a domain-connected Windows 11 endpoint and Windows Server 2025 endpoints
 - Installed and configured Sysmon for EDR processing
 - Forwarded Windows and Sysmon logs to Splunk using Universal Forwarder
 - Simulated failed authentication attempts followed by a successful attempt and suspicious PowerShell activity
 - Reviewed relevant event data in Splunk to determine severity level
-- Documented findings and response recommendations
+- Documented findings and response recommendations in a NIST-800-inspired investigation report
 ## 🛠️ Tools Used
 - ✅ Windows 11 VM
 - ✅ Active Directory on Windows Server 2025
 - ✅ Sysmon
 - ✅ Splunk Enterprise and Universal Forwarder
 - ✅ Windows Event Logs
+- ✅ Authentication Monitoring Dashboard from Splunk SIEM Lab
 ## 🤝 Resolution Summary
-- Confirmed that failed logon activity and PowerShell execution across Windows Event and Sysmon Logs
-- Determined that the investigated behavior was suspicious and warranted further review and escalation
+- Confirmed suspicious failed logon activity and PowerShell execution across Windows Event and Sysmon Logs
+- Determined that the investigated behavior warrants further review and escalation
 ## ⏭️ Recommended Next Steps
-- Review the affected user account activity for lateral movement, persistence, and C2 connection attempts
+- Access the affected user account activity for lateral movement, persistence, and C2 connection attempts
 - Tighten monitoring and alerting for repeated failed authentication attempts within a short period of time
-- Expand PowerShell logging and detection coverage
-- Validate new endpoint hardening controls related to authentication and privileged command execution
+- Expand PowerShell logging, detection, and prevention coverage
+- Review account permissions and privileged access controls to reduce misuse risk
+- Validate new endpoint hardening controls related to authentication and PowerShell/Command Line access
 # 📸 Screenshots
 <img width="1894" height="646" alt="00-Sysmon-addon-proof" src="https://github.com/user-attachments/assets/5ab5f467-4733-4166-b0d6-d1fe7a32673f" />
 <img width="945" height="766" alt="01-creating-victim-user-AD" src="https://github.com/user-attachments/assets/bf4717b6-4b45-495c-b14b-6dea0979c42a" />
